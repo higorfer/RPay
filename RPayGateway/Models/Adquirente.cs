@@ -13,7 +13,7 @@ namespace RPayGateway.Models
 
         public int IdAdquirente { get; set; }
         public string DscAdquirente { get; set; }
-
+        
         public virtual ICollection<AdquirenteEndpoint> AdquirenteEndpoint { get; set; }
         public virtual ICollection<LojistaCfgBandeira> LojistaCfgBandeira { get; set; }
     }
